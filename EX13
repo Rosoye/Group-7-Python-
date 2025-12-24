@@ -1,0 +1,14 @@
+# ex13.py
+# This program demonstrates command-line arguments
+
+From sys import argv  # Import argv from the sys module
+
+# Unpack command-line arguments into variables
+Script, first, second, third = argv
+
+# Display each argument
+Print(“The script name is:”, script)
+Print(“The first argument is:”, first)
+Print(“The second argument is:”, second)
+Print(“The third argument is:”, third)
+
